@@ -4,3 +4,28 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
+main {
+    margin: 45px;
+    padding: 30px;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.square {
+    width: calc(1000px / 10);
+    height: calc (1000px / 10);
+    border: 2px solid white;
+    background-color: aquamarine;
+
+}
