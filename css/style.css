@@ -24,8 +24,16 @@ main {
 
 .square {
     width: calc(1000px / 10);
-    height: calc (1000px / 10);
+    height: calc(1000px / 10);
     border: 2px solid white;
-    background-color: aquamarine;
+    background-color: rgb(63, 188, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+}
 
+.clicked {
+    background-color: rgb(33, 184, 234);
 }
