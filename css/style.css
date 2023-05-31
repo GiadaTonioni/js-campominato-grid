@@ -37,3 +37,21 @@ main {
 .clicked {
     background-color: rgb(33, 184, 234);
 }
+
+.btn-play{
+    border: none;
+    background-color: brown;
+    border-radius: 0px;
+    color: white;
+    padding: 10px;
+}
+ 
+header {
+    background-color: pink;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

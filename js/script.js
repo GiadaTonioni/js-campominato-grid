@@ -6,22 +6,25 @@ function createSquare(){
     return square;
 }
 
-//griglia dal dom
+
 const grid = document.getElementById('grid');
 
 //aggiungo quadretti
 for(let i = 0; i < 100; i++){
     let square = createSquare();
-    console.log(square);
 
     square.innerText = i + 1;
 
     square.addEventListener('click', function(){    //uso this sui quadretti
-        console.log(this)
         //tolgo e aggiungo con toggle
         this.classList.toggle('clicked')
+        console.log(this.innerText)
+
     });
 
-    //rendo visibili quadrati
+    //rendo visibili quadretti
     grid.append(square);
 }
+
+
+
